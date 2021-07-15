@@ -1,0 +1,15 @@
+body{
+    background-image: url("./familybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.telldiv{
+    background-color:#381e74; 
+    box-shadow:10px 10px 10px #d75f70;
+    color:white;
+    border-radius:25px;
+    padding:5px;
+}
+canvas{
+    background-color:red;
+}

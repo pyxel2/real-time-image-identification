@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>QUICK TIME FAMILY RECOGNINTION</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div style="display:flex; justify-content: center;">
+            <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12">
+                <marquee>
+                    <h1>
+                        <strong>
+                           WELCOME TO QUICK TIME FAMILY RECOGNINTION
+                        </strong>
+                </h1>
+            </marquee>
+            <hr>
+            <div class="telldiv">
+                <h3>THIS MODEL IS TRAINED FOR</h3>
+                <br>
+                <h3><strong>MY MOM | MY DAD | ME</strong></h3>
+            </div>
+            <br>
+            <br>
+            <button onclick="p5filter()">YOU CAN CHOOSE A FILTER FOR YOUR VIDEO IF YOU WANT</button>
+<br>
+            <br>
+            <div class="telldiv" style="width:fit-content;">
+               <h3>Person:<strong id="member"></strong></h3>
+            </div>
+            <br>
+            <hr>
+            <div class="telldiv" style="width:fit-content;">
+                <h3>Accuracy:<strong id="accuracy"></strong></h3>
+             </div>
+            
+            </div>
+        </div>
+        </center>
+        <script src="./main.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+
+    </body>
+</html>
